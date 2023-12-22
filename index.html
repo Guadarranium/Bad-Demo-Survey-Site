@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <h1 id="title">Rizzing Survey Form</h1>
+        <p id="description">A form to asses your rizzing skills</p>
+        <h5><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">"I came, I saw, I rizzed" -Julius Caesar</a></h5>
+        <hr>
+        <form id="survey-form">
+            <fieldset>
+            <label id="name-label" for="name">Enter Your Full Name:<input id="name" name="name" type="text" placeholder="Retardus Maximus" required /></label>
+            </fieldset>
+            <fieldset>
+                <label id="number-label" for="number">Enter your Age (In Years):<input placeholder="18" type="number" id='number' min="13" max="100" name="age" required/></label>
+            </fieldset>
+            <fieldset>
+                <label id="email-label" for="email"> Input your Email Address:</label>
+            <input id="email" name="email" type="email" placeholder="Rizzmaker@mail.com" required/>
+        </fieldset>
+        <fieldset>
+            <legend>Do you have experience in Rizz?</legend>
+            <label for="NewRizz"><input id="NewRizz" type="radio" value="Beginner" name="start-date" class="inline" checked /> Just starting new</label>
+        <label for="ExperiencedRizz"><input id="ExperiencedRizz" value="Experienced" type="radio" name="start-date" class="inline" /> Experienced</label>
+        </fieldset>
+        <fieldset>
+            <label>How many bitches?</label>
+            <select name="StartRizz" id="dropdown">
+                <option value="0">None</option>
+                <option value="1">0.5 Beetches</option>
+                <option value="3">1</option>
+                <option value="4">2</option>
+                <option value="5">Sexual Harassment case</option>
+                <option value="6">Prefer not to say (pussy)</option>
+            </select>
+            <br>
+            <br>
+            <label>Provide further details on your Rizzing (optional)</label><br>
+            <textarea id="bio" name="bio" rows="5" cols="30"></textarea>
+        </fieldset>
+        <fieldset class="finale">
+        <input name="check" type="checkbox" class="inline" value="IAgree" id="agreements" required/>I accept the responsibilities on becoming a skibidi rizzlord<br>
+        <input name="check" type="checkbox" value="emailsend" class="inline" id="emailsend"/>Send updates and rizzing lessons on my email address<br>
+        <input type="submit" name="submit" id="submit" value="submit">
+    </fieldset>
+        </form>
+    </body>
+</html>

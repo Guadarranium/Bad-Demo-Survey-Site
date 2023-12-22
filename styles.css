@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-image: url(https://pbs.twimg.com/media/F-98jF7XAAAG3Cl.jpg:large);
+    background-size: cover;
+}
+
+h1, p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: gainsboro;
+}
+
+h5 {
+    font-family: cursive;
+    color: rgba(255,0,0,80%);
+    border-style:groove;
+    display: inline;
+    width: fit-content;
+}
+
+h5:hover {
+    color: blue;
+}
+
+fieldset:hover {
+    background-color: rgba(0,0,255,30%);
+    border-radius: 10px;
+    border: solid 0.5px blanchedalmond;
+}
+fieldset {
+    margin-top: 20px;
+}
+label {
+    font-family: Comic Sans MS;
+    color: white;
+}
+
+.inline {
+    display: inline;
+}
+
+input[type='submit']{
+    width: auto;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+legend {
+    font-family: Comic Sans MS;
+    color: white;
+}
